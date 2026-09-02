@@ -9,9 +9,14 @@ int main()
 	float A;
 	float B;
 	float X;
+	cout << "Hello, my name is Adam And i will solve the equation Ax+b=0 for x" << endl;
 	cout << "Please enter a value for A: ";
 	cin >> A;
-	cout << "A=" << A << endl;
-	B = (A * 4) + 1;
-	cout << "And B=" << B << endl;
+	cout << "Please enter a value for B: " << endl;
+	cin >> B;
+	cout << "Solving for "<< A <<"x+"<< B <<"=0"<<endl;
+	B = B * -1;
+	X = B / A;
+	cout << "The answer is:" << endl;
+	cout << "x=" << X << endl;
 }
